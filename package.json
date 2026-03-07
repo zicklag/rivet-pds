@@ -5,8 +5,8 @@
   "main": "main.ts",
   "type": "module",
   "scripts": {
-    "runner": "npx tsx start_runner.ts",
-    "gateway": "npx tsx start_gateway.ts"
+    "runner": "npx tsx src/start_runner.ts",
+    "gateway": "npx tsx src/start_gateway.ts"
   },
   "keywords": [],
   "author": "Zicklag",
