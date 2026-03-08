@@ -1,6 +1,6 @@
 import { Hono } from "hono";
 import { actor } from "rivetkit";
-import type { registry } from "../registry";
+import type { registry } from "../actors";
 
 /** Create an HTTP actor for handling requests. */
 export const http = actor({
@@ -10,15 +10,13 @@ export const http = actor({
 
     const app = new Hono();
 
-    app.get(
-      "/.well-known/oauth-authorization-server",
-      async () =>
-        new Response(await authServer.getMetadata(), {
-          headers: {
-            "content-type": "application/json",
-          },
-        }),
-    );
+    let res = new Response();
+
+    app.use(({ req }) => {
+
+      new P
+
+    })
 
     return app.fetch(req);
   },

@@ -1,5 +1,5 @@
 import { createClient } from "rivetkit/client";
-import { registry } from "./registry";
+import { registry } from "./actors";
 import { serve } from "@hono/node-server";
 import { Hono } from "hono";
 

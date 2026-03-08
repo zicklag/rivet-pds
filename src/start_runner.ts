@@ -1,3 +1,3 @@
-import { registry } from "./registry.ts"
+import { registry } from "./actors.ts"
 
 registry.startRunner();

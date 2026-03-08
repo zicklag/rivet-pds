@@ -1,7 +1,7 @@
 import { setup } from "rivetkit";
 
-import { authServer } from "./registry/authServer";
-import { http } from "./registry/http";
+import { authServer } from "./actors/authServer";
+import { http } from "./actors/http";
 
 export const registry = setup({
   use: { http, authServer },
