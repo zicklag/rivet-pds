@@ -1,5 +1,7 @@
 # Rivet PDS
 
+> **⚠️ This Repository Has Moved to Tangled:** I figured this project might be a good opportunity to start using [Tangled](https://tangled.org/), so I've moved the project to a [new repo](https://tangled.org/zicklag.dev/rivet-pds/).
+
 An [ATProto](https://atproto.com) PDS written on top of [Rivet](https://rivet.dev) actors.
 
 ## Running
